@@ -1,3 +1,4 @@
+import 'package:chat_app/login_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,21 +17,3 @@ class ChatApp extends StatelessWidget {
   }
 }
 //hello
-
-class LoginPage extends StatelessWidget {
-  const LoginPage({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('My Hello World App!'),
-      ),
-      drawer: Drawer(),
-      floatingActionButton: FloatingActionButton(onPressed: () {  },
-
-      ),
-      body: Text('Hello World!'),
-    );
-  }
-}
