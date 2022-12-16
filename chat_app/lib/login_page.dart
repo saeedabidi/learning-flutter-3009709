@@ -31,6 +31,25 @@ class LoginPage extends StatelessWidget {
                 fontWeight: FontWeight.bold,
                 letterSpacing: 0.5),
           ),
+          Image(
+            image: NetworkImage(
+                "https://cdn.pixabay.com/photo/2017/04/10/12/18/chat-2218345_960_720.jpg"),
+            height: 150.0,
+          ),
+          SizedBox(height: 10.0,),
+          Container(
+              padding: EdgeInsets.all(10.0),
+              height: 150,
+              width: 150,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(24),
+                color: Colors.blueGrey,
+                image: DecorationImage(
+                  fit: BoxFit.cover,
+                  image: NetworkImage(
+                      "https://cdn.pixabay.com/photo/2017/04/10/12/18/chat-2218345_960_720.jpg"),
+                ),
+              ))
         ],
       ),
     );
